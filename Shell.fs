@@ -13,7 +13,7 @@ module Shell =
             DockPanel.create [
 
                 DockPanel.children [
-                    TabControl.create [ 
+                    TabControl.create [
                         TabControl.tabStripPlacement Dock.Top
                         TabControl.viewItems [
                             TabItem.create [
@@ -46,4 +46,3 @@ module Shell =
 
             //this.VisualRoot.VisualRoot.Renderer.DrawFps <- true
             //this.VisualRoot.VisualRoot.Renderer.DrawDirtyRects <- true
-
